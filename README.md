@@ -11,8 +11,7 @@
 - Отрисовка bounding box, класса объекта и confidence  
 - Опциональное отображение FPS  
 - Сохранение обработанного видео  
-- Дообучение существующей модели YOLO на новых данных  
-- Выбор устройства для инференса: CPU, GPU или MPS (Mac)  
+- Выбор устройства для инференса: CPU или GPU
 
 ---
 
@@ -21,7 +20,7 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone [<your-repo-url>(https://github.com/aibryanov/yolo_drone_detection/tree/main)
-cd project (https://github.com/aibryanov/yolo_drone_detection/tree/main)
+git clone https://github.com/aibryanov/yolo_drone_detection/tree/main
+cd yolo_drone_detection
 ```
 
