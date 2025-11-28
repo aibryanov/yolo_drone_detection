@@ -71,7 +71,22 @@ python main.py --source <путь_к_видео> --weights models/best.pt --save
 python main.py --source <путь_к_фото> --weights models/best.pt --save <путь_для_сохранения>
 ```
 
-
+## Структура проекта
+```
+project/
+│
+├── src/                        # Исходный код проекта
+│   ├── detection.py            # Класс YOLODetector и функции детекции
+│   ├── download_weights.py     # Скрипт для скачивания весов модели
+│   ├── utils.py                # Вспомогательные функции (FPS)
+│   └── video_processor.py      # Класс для обработки видео и потоков
+│
+├── tests/                      # Тестовые изображения и видео
+│
+├── drone_detection.ipynb       # Jupyter Notebook с обучением YOLO
+├── main.py                     # Основной скрипт запуска проекта
+└── requirements.txt            # Зависимости проекта
+```
 
 
 
