@@ -21,7 +21,7 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <your-repo-url>
-cd project
+git clone [<your-repo-url>(https://github.com/aibryanov/yolo_drone_detection/tree/main)
+cd project (https://github.com/aibryanov/yolo_drone_detection/tree/main)
 ```
 
